@@ -14,7 +14,7 @@ import itertools    # join lists of list in one_list
 import matplotlib.pyplot as plt
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
-ID2NAMES = {"airplane": "airplane",
+ID2NAMES = {"02691156": "airplane",
             "02808440": "bathtub",
             "02818832": "bed",
             "02876657": "bottle",
