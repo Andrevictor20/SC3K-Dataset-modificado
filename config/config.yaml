@@ -6,7 +6,7 @@ key_points: 10
 batch_size: 26
 max_epoch: 5
 num_workers: 6
-class_name: airplane
+class_name: bathtub
 overlap_threshold: 0.05 # 0.05
 
 save_results: True
@@ -35,12 +35,12 @@ sample_points:  2048
 
 
 data:
-  annot_path: dataset/annotations/airplane.json
+  annot_path: dataset/annotations/bathtub.json
   pcd_root: dataset/pcds
   splits_root: dataset/splits
   poses_root: dataset/poses
 #  best_model_path: 'please set the path'
-  best_model_path : train/airplane/Best_airplane_10kp.pth
+  best_model_path : train/bathtub/Best_bathtub_10kp.pth
 
 hydra:
   run:
